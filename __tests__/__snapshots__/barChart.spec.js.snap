@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart Rendering renders empty BarChart component correctly 1`] = `
+<div>
+  <div
+    className="rd3-basic-chart"
+  >
+    <svg
+      className="rd3-chart"
+      height={250}
+      viewBox={undefined}
+      width={350}
+    >
+      <g
+        className="rd3-barchart"
+        transform="translate(45,10)"
+      >
+        <g
+          className="rd3-barchart-yaxis"
+          transform="translate(0, 0)"
+        >
+          <g />
+          <path
+            className="domain"
+            d="M-6,0H0V200H-6"
+            fill="none"
+            stroke="#000"
+            strokeWidth="1"
+            style={
+              Object {
+                "shapeRendering": "crispEdges",
+              }
+            }
+          />
+          <text
+            strokeWidth="0.01"
+            textAnchor="middle"
+            transform="rotate(270)"
+            x={-100}
+            y={-35}
+          >
+            Temperature
+          </text>
+        </g>
+        <g
+          className="rd3-barchart-xaxis"
+          transform="translate(0 ,200)"
+        >
+          <g>
+            <g
+              className="tick"
+              transform="translate(142.5,0)"
+            >
+              <line
+                style={
+                  Object {
+                    "opacity": "1",
+                    "shapeRendering": "crispEdges",
+                    "stroke": "#000",
+                  }
+                }
+                x2={undefined}
+                y2={6}
+              />
+              <text
+                dy=".71em"
+                strokeWidth="0.01"
+                style={
+                  Object {
+                    "fill": undefined,
+                    "stroke": undefined,
+                  }
+                }
+                textAnchor="middle"
+                x={undefined}
+                y={9}
+              >
+                Day 1
+              </text>
+            </g>
+          </g>
+          <path
+            className="domain"
+            d="M0,6V0H285V6"
+            fill="none"
+            stroke="none"
+            strokeWidth="1"
+            style={
+              Object {
+                "shapeRendering": "crispEdges",
+              }
+            }
+          />
+          <text />
+        </g>
+        <g>
+          <rect
+            className="rd3-barchart-bar"
+            fill="#3182bd"
+            handleMouseLeave={[Function]}
+            handleMouseOver={[Function]}
+            height={NaN}
+            hoverAnimation={true}
+            offset={0}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            width={171}
+            x={57}
+            y={NaN}
+          />
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+`;
