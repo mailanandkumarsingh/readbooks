@@ -1,5 +1,5 @@
-# Weather Web App
-This app gets weather forecast information available in GreatBritain for the next five days.
+# GoodReads App
+This app gets books matching the search string.
 
 This app has been developed using :
 
@@ -7,9 +7,7 @@ This app has been developed using :
 * [axios]Promises to make aysncronous network calls.
 * parse JSON data and generate model object from the data.
 * use [redux-promise](https://github.com/acdlite/redux-promise) middleware for handling promises.
-* [OpenWeatherMap](http://openweathermap.org) API to get weather forecast for 5 days.
-* google maps API to display the maps based on long/lat returned by OpenWeatherMap
-* react-d3 for plotting graphs
+* [GoodReads](https://www.goodreads.com/api/) API to get matching books
 * JEST framework for snapshot and unittestcases
 
 ###Getting Started###
@@ -17,8 +15,8 @@ This app has been developed using :
 Checkout this repo, install dependencies, then start webpack server with the following:
 
 ```
-	> git clone https://github.com/mailanandkumarsingh/weather-app.git
-	> cd react-redux-weather-app
+	> git clone https://github.com/mailanandkumarsingh/readbooks.git
+	> cd readbooks
 	> npm install
 	> npm run dev
 	> open browser - localhost:8080
