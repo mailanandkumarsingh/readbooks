@@ -1,6 +1,8 @@
 # GoodReads App
 This app gets books matching the search string.
---->Important ---->
+
+
+###Important###
 install 'Allow-Control-Allow-Origin' on Chrome to run the app on localhost
 
 This app has been developed using :
